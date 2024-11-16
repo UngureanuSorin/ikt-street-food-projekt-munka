@@ -1,0 +1,189 @@
+/* Resetting some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url('realistic-cheeseburger-chalkboard-background_79603-1044.avif') no-repeat center center fixed; /* Background image URL */
+    background-size: cover; /* Ensures the image covers the entire background */
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(255, 99, 71, 0.8); /* Transparent tomato color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #000;
+}
+
+/* Hero Section */
+#hero {
+    background-color: rgba(249, 249, 249, 0.8); /* Transparent white */
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    color: #ff6347;
+}
+
+#hero p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+#hero img {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Menu Section */
+#menu {
+    background-color: rgba(255, 255, 255, 0.9); /* Transparent white */
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#menu h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff6347;
+}
+
+/* Menu Category Styling */
+.menu-category {
+    margin-bottom: 40px;
+}
+
+.menu-category h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Menu Items Styling */
+.menu-item {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.menu-item h4 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.menu-item p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* About Section */
+#about {
+    background-color: rgba(244, 244, 244, 0.9); /* Light transparent gray */
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#about h2 {
+    font-size: 2rem;
+    color: #ff6347;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Contact Section */
+#contact {
+    background-color: rgba(255, 255, 255, 0.9); /* Transparent white */
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    color: #ff6347;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+#contact a {
+    color: #ff6347;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
